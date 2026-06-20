@@ -1,0 +1,5 @@
+# Release binaries are published as GitHub Release assets, never committed to git
+# (GitHub rejects files over 100 MB, and the repo is meant to stay lightweight).
+*.dmg
+*.zip
+*.app/
