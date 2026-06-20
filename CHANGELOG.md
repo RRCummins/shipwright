@@ -2,7 +2,7 @@
 
 All notable changes to Shipwright releases are documented here.
 
-## 0.3.0 — 2026-06-20
+## 0.3.1 — 2026-06-20
 
 First publicly distributed, signed and notarized macOS build.
 
@@ -11,4 +11,4 @@ First publicly distributed, signed and notarized macOS build.
 - Floating conversation/card layout with uniform spacing between the sidebar and cards.
 - Unified appearance setting (Light / Dark / System) with a first-run appearance choice.
 
-**Download:** `Shipwright-0.3.0.dmg` from the release assets below.
+**Download:** `Shipwright-0.3.1.dmg` from the release assets below.
