@@ -2,6 +2,14 @@
 
 All notable changes to Shipwright releases are documented here.
 
+## 0.3.3 — 2026-06-22
+
+- Added an in-app App icon chooser (Settings → Appearance): Dark, Light, or Follow System, with pre-squircled dock art.
+- Integrated status/time chip on project tabs showing agent state and last activity at a glance.
+- Resume-clear affordances and a move-to-inbox action for tidying up project tabs.
+
+**Download:** `Shipwright-0.3.3.dmg` from the release assets below.
+
 ## 0.3.2 — 2026-06-22
 
 - Removed remaining Warp/Oz cloud surfaces: session sharing (Share menu + sign-up popup), Warp AI/Drive menus, and the Teams settings page.
