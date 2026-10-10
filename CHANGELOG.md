@@ -2,6 +2,17 @@
 
 All notable changes to Shipwright releases are documented here.
 
+## 0.4.1 — 2026-10-09
+
+- Linear-inspired UI refresh: the sidebar now owns the title bar, so the terminal card rises to the top of the window.
+- Window controls (Settings, View options, Notifications, Code review, Sail, Appearance) moved to the sidebar footer, or the rail when collapsed.
+- Single-line sidebar rows with status dots, Linear-style project headers, and a cleaner collapsed rail.
+- Darker, deeper dark mode, thin-stroke icon set, and a soft fade at the top of the terminal card.
+- Redesigned agent notifications, and the code review panel now floats as its own card.
+- Diff view: Linear-style red/green, colored line numbers, slim file headers, and softer highlights.
+
+**Download:** `Shipwright-0.4.1.dmg` from the release assets below.
+
 ## 0.3.3 — 2026-06-22
 
 - Added an in-app App icon chooser (Settings → Appearance): Dark, Light, or Follow System, with pre-squircled dock art.
