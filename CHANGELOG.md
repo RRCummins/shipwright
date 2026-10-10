@@ -2,6 +2,16 @@
 
 All notable changes to Shipwright releases are documented here.
 
+## 0.6.0 — 2026-10-10
+
+- **New Linear Indigo colors.** Untinted neutral-grey window and cards, an indigo accent, and clearer agent status colors: yellow for Asking, indigo for Running, green for Done, red for errors, violet for Approve. Light mode gets matching tones.
+- Refreshed project badge colors and an Indigo option in the project color picker.
+- **No more beachballs during builds.** Shipwright no longer freezes while a build or an agent is writing lots of files. A leftover Warp file watcher was rescanning your whole project on every change; it and the other leftover Warp AI background scanners (skills, MCP configs, code indexing, rules) are now turned off.
+- Faster file lookups in large projects, so the file explorer and diff views stay snappy.
+- Claude Code sessions keep saving their transcripts even when Shipwright itself was opened from a Claude session, so `--resume` and session history work.
+
+**Download:** `Shipwright-0.6.0.dmg` from the release assets below.
+
 ## 0.4.1 — 2026-10-09
 
 - Linear-inspired UI refresh: the sidebar now owns the title bar, so the terminal card rises to the top of the window.
