@@ -2,6 +2,15 @@
 
 All notable changes to Shipwright releases are documented here.
 
+## 0.6.1 — 2026-10-11
+
+- **New Usage page.** Open it from the chart button in the sidebar footer. It shows tokens, cache reads, sessions and active days for Claude Code and Codex over 7 days to a year, a daily chart you can split by agent, a 12-month activity heatmap with your busiest hours, and a breakdown by agent, project or model. Everything is read from your local transcripts and stays on your Mac.
+- **See what each open tab costs.** The Usage page lists every open tab with its memory (agent, MCP servers, shell and scrollback), how long it has been open and its session's tokens. Quick-select shells, tabs idle for over an hour, or tabs over 400 MB, and close them in one go. Restart an agent to free its memory; it picks up the same session.
+- Freshly launched or resumed agents no longer show as Running before you've sent a prompt (for example, every resumed tab after relaunching Shipwright).
+- Claude's "waiting for your input" reminders no longer push an idle tab back to Asking.
+
+**Download:** `Shipwright-0.6.1.dmg` from the release assets below.
+
 ## 0.6.0 — 2026-10-10
 
 - **New Linear Indigo colors.** Untinted neutral-grey window and cards, an indigo accent, and clearer agent status colors: yellow for Asking, indigo for Running, green for Done, red for errors, violet for Approve. Light mode gets matching tones.
