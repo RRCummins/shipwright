@@ -8,9 +8,9 @@ All notable changes to Shipwright releases are documented here.
 - Tabs no longer bounce back into the Inbox after you click them, and agents that have exited no longer show as a fresh Result.
 - **Less Warp left over.** Warp account, Drive, sharing and Warp AI commands are gone from the menus, command palette and keybinding settings. Settings, menus and notifications say Shipwright, Help links open the Shipwright repo, and the first-run theme picker no longer asks you to accept Warp's terms.
 - `shipwright://` links now open in Shipwright. They were being dropped before.
-- **Windows (alpha).** `Shipwright-0.6.2-windows-x64.zip` is an alpha build for Windows 10/11 x64: unzip it and run `shipwright.exe`. It isn't code-signed yet, so SmartScreen will warn the first time. Expect rough edges.
+- **Windows (alpha).** `Shipwright-0.6.2-windows-x64-setup.exe` installs Shipwright on Windows 10/11 x64. It installs for your user by default, so it doesn't need admin rights. It adds a Start menu entry and an "Open in Shipwright" item when you right-click a folder, and it can optionally put Shipwright on your PATH. Uninstall it from Settings → Apps; your settings are kept. If you'd rather not install, `Shipwright-0.6.2-windows-x64.zip` is a portable copy: unzip it and run `shipwright.exe`. Neither is code-signed yet, so SmartScreen will warn the first time. Expect rough edges.
 
-**Download:** `Shipwright-0.6.2.dmg` (macOS) or `Shipwright-0.6.2-windows-x64.zip` (Windows, alpha) from the release assets below.
+**Download:** `Shipwright-0.6.2.dmg` (macOS) or `Shipwright-0.6.2-windows-x64-setup.exe` (Windows, alpha) from the release assets below.
 
 ## 0.6.1 — 2026-10-11
 
