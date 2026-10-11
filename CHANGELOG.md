@@ -2,6 +2,16 @@
 
 All notable changes to Shipwright releases are documented here.
 
+## 0.6.2 — 2026-10-11
+
+- **New Background status.** When a Claude turn ends while its background shells, monitors or subagents are still running, the tab shows Background until they finish, instead of looking done.
+- Tabs no longer bounce back into the Inbox after you click them, and agents that have exited no longer show as a fresh Result.
+- **Less Warp left over.** Warp account, Drive, sharing and Warp AI commands are gone from the menus, command palette and keybinding settings. Settings, menus and notifications say Shipwright, Help links open the Shipwright repo, and the first-run theme picker no longer asks you to accept Warp's terms.
+- `shipwright://` links now open in Shipwright. They were being dropped before.
+- **Windows (alpha).** `Shipwright-0.6.2-windows-x64.zip` is an alpha build for Windows 10/11 x64: unzip it and run `shipwright.exe`. It isn't code-signed yet, so SmartScreen will warn the first time. Expect rough edges.
+
+**Download:** `Shipwright-0.6.2.dmg` (macOS) or `Shipwright-0.6.2-windows-x64.zip` (Windows, alpha) from the release assets below.
+
 ## 0.6.1 — 2026-10-11
 
 - **New Usage page.** Open it from the chart button in the sidebar footer. It shows tokens, cache reads, sessions and active days for Claude Code and Codex over 7 days to a year, a daily chart you can split by agent, a 12-month activity heatmap with your busiest hours, and a breakdown by agent, project or model. Everything is read from your local transcripts and stays on your Mac.
