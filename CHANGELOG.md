@@ -2,6 +2,14 @@
 
 All notable changes to Shipwright releases are documented here.
 
+## 0.6.3 — 2026-10-14
+
+- **Cmd and Option arrows work in Claude Code's prompt.** Cmd+←/→ jumps to the start or end of the line, Option+←/→ moves by word, Option+Backspace deletes a word, Cmd+Backspace deletes to the start of the line and Cmd+Delete to the end. Before, Cmd+← moved one character and the rest did nothing. Vim, less and other full-screen apps still get the raw keys.
+- **Window corners fit macOS 26.** Shipwright now uses the corner radius macOS gives its windows (larger on macOS 26 Tahoe), so the window's painted corners match its rounded edge. Dialogs follow the same radius.
+- **Windows (alpha) gets the Mac layout.** The sidebar now runs to the top of the window, like on macOS: its header holds search, new project and collapse, and the toolbar buttons (inbox, tools, Sail, appearance) sit in the sidebar footer next to Settings. The old Warp tab bar is gone. Minimize, maximize and close sit in a slim strip above the terminal, which you can also drag to move the window.
+
+**Download:** `Shipwright-0.6.3.dmg` (macOS) or `Shipwright-0.6.3-windows-x64-setup.exe` (Windows, alpha) from the release assets below.
+
 ## 0.6.2 — 2026-10-11
 
 - **New Background status.** When a Claude turn ends while its background shells, monitors or subagents are still running, the tab shows Background until they finish, instead of looking done.
